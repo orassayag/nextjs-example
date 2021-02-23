@@ -1,8 +1,8 @@
-# Client
+# Next.js Example
 
 Built in November 2020. Example of simple Next.js with React.js application.
 
-# Basic API routes example
+## Basic API routes example
 
 Next.js ships with [API routes](https://nextjs.org/docs/api-routes/introduction) which provides an easy solution to build your own `API`. This example shows how to create multiple `API` endpoints with serverless functions, which can execute independently.
 
