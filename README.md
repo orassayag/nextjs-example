@@ -1,6 +1,6 @@
 # Next.js Example
 
-Built in November 2020. Example of simple Next.js with React.js application.
+Built in November 2020. Example of simple Next.js framework with React.js application.
 
 ## Basic API routes example
 
@@ -30,7 +30,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&ut
 * Or Assayag <orassayag@gmail.com>
 * GitHub: https://github.com/orassayag
 * StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://il.linkedin.com/in/orassayag
+* LinkedIn: https://linkedin.com/in/orassayag
 
 ## License
 
