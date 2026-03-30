@@ -1,11 +1,31 @@
 {
   "name": "nextjs-example",
   "version": "1.0.0",
+  "description": "A demonstration of Next.js API routes and React SWR data fetching library with serverless functions and efficient client-side data fetching",
   "private": false,
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/nextjs-example.git"
   },
+  "keywords": [
+    "nextjs",
+    "react",
+    "swr",
+    "api-routes",
+    "serverless",
+    "server-side-rendering",
+    "ssr",
+    "data-fetching",
+    "dynamic-routing",
+    "example",
+    "tutorial",
+    "demo"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
