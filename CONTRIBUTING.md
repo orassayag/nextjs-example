@@ -9,6 +9,7 @@ Everyone is welcome to contribute to this project. Contributing doesn't just mea
 ### Reporting Issues
 
 If you find a bug or have a feature request:
+
 1. Check if the issue already exists in the [GitHub Issues](https://github.com/orassayag/nextjs-example/issues)
 2. If not, create a new issue with:
    - Clear title and description
@@ -31,11 +32,13 @@ If you find a bug or have a feature request:
 ### Code Style Guidelines
 
 This project uses:
+
 - **React 16.8+** with functional components and hooks
 - **Next.js** for server-side rendering and API routes
 - **SWR** for data fetching
 
 Before submitting:
+
 ```bash
 # Test the development server
 npm run dev
@@ -59,6 +62,7 @@ npm run start
 ### Adding New Features
 
 When adding new features:
+
 1. Create components in the `components/` directory
 2. Add page routes in the `pages/` directory
 3. Add API endpoints in `pages/api/`
@@ -69,6 +73,7 @@ When adding new features:
 ### Testing
 
 Before submitting a pull request:
+
 1. Test the development server (`npm run dev`)
 2. Test all pages and routes manually
 3. Verify API endpoints return correct data
@@ -79,9 +84,9 @@ Before submitting a pull request:
 
 Please feel free to contact me with any question, comment, pull-request, issue, or any other thing you have in mind.
 
-* Or Assayag <orassayag@gmail.com>
-* GitHub: https://github.com/orassayag
-* StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://linkedin.com/in/orassayag
+- Or Assayag <orassayag@gmail.com>
+- GitHub: https://github.com/orassayag
+- StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+- LinkedIn: https://linkedin.com/in/orassayag
 
 Thank you for contributing! 🙏

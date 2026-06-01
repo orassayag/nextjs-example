@@ -99,4 +99,4 @@ export const people = [
     eye_color: 'blue-gray',
     gender: 'male',
   },
-]
+];

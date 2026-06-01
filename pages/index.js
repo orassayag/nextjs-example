@@ -1,13 +1,13 @@
-import useSWR from 'swr'
-import Person from '../components/Person'
+import useSWR from 'swr';
+import Person from '../components/Person';
 
-const fetcher = (url) => fetch(url).then((res) => res.json())
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Index() {
-  const { data, error } = useSWR('/api/people', fetcher)
+  const { data, error } = useSWR('/api/people', fetcher);
 
-  if (error) return <div>Failed to load</div>
-  if (!data) return <div>Loading...</div>
+  if (error) return <div>Failed to load</div>;
+  if (!data) return <div>Loading...</div>;
 
   return (
     <ul>
@@ -15,5 +15,5 @@ export default function Index() {
         <Person key={i} person={p} />
       ))}
     </ul>
-  )
+  );
 }

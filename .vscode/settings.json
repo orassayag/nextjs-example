@@ -1,11 +1,22 @@
 {
-    "cSpell.words": [
-        "Assayag",
-        "Beru",
-        "Biggs",
-        "Leia",
-        "Vercel",
-        "nextjs",
-        "orassayag"
-    ]
+  "cSpell.words": [
+    "Assayag",
+    "Beru",
+    "Biggs",
+    "Darklighter",
+    "Kenobi",
+    "Leia",
+    "nextjs",
+    "orassayag",
+    "Skywalker",
+    "Vercel",
+    "Whitesun"
+  ],
+  "cSpell.ignorePaths": [
+    "coverage",
+    "node_modules",
+    "dist",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml"
+  ]
 }

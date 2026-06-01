@@ -1,17 +1,8 @@
 {
   "name": "nextjs-example",
   "version": "1.0.0",
-  "description": "A demonstration of Next.js API routes and React SWR data fetching library with serverless functions and efficient client-side data fetching",
   "private": false,
-  "author": {
-    "name": "Or Assayag",
-    "email": "orassayag@gmail.com",
-    "url": "https://github.com/orassayag"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/orassayag/nextjs-example.git"
-  },
+  "description": "A demonstration project showcasing Next.js API routes with React SWR for efficient data fetching. This app highlights how to build a lightweight full-stack application using serverless API functions, client caching, and modern data synchronization patterns, updated for current Next.js best practices",
   "keywords": [
     "nextjs",
     "react",
@@ -26,9 +17,56 @@
     "tutorial",
     "demo"
   ],
+  "homepage": "https://github.com/orassayag/nextjs-example#readme",
+  "bugs": {
+    "url": "https://github.com/orassayag/nextjs-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/nextjs-example.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/orassayag"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
+    }
+  ],
+  "type": "commonjs",
+  "main": "pages/index.js",
+  "files": [
+    ".github",
+    ".vscode",
+    "components",
+    "pages",
+    ".eslintrc.js",
+    ".gitignore",
+    ".prettierrc",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "data.js",
+    "INSTRUCTIONS.md",
+    "knip.json",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md",
+    "SECURITY.md"
+  ],
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
     "start": "next start"
   },
   "dependencies": {
@@ -37,5 +75,5 @@
     "react-dom": "^16.8.6",
     "swr": "0.1.18"
   },
-  "license": "MIT"
+  "devDependencies": {}
 }
